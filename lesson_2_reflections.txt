@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+	so that you can start using version control with git
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+	The working directory holds the commits that are the combined elements 
+	from the staging area at a certain period. The repository holds all of
+	these elements at any given time
+	This allows you to stage related files and commit them together so they
+	will show up under the same commit which streamlines the everything when
+	you look through the history
