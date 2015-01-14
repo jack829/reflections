@@ -9,3 +9,33 @@ repository? What value do you think it offers?
 	This allows you to stage related files and commit them together so they
 	will show up under the same commit which streamlines the everything when
 	you look through the history
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+	You can always check what is in the staging area to make sure that is the
+	change you intended to make and that that is the only change that is about
+	to be committed. It seems to simply be a double check before a commit
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+	When you want to play around with a potential/experimental code but want 
+	to keep the main/original code intact. The branch provides an easier 
+	separation between the two rather than continually looking back and forth.
+	It would also help if you eventually want two different versions for some 
+	reason
+
+How do the diagrams help you visualize the branch structure?
+	They make it easy to see where certain pieces of code may have landed and 
+	where they all come back together. Just generally easier to track the 
+	progress of a program's parts
+
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+	We can combine some code that is now "production quality" into the master branch to update the master branch
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+	Auto merging is simply way easier and faster whereas merging manually 
+	lets the programmer know exactly where and how each change is made and 
+	allows him to avoid conflicts. (though conflicts are pointed out 
+	explicitly with the auto merging)
