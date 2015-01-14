@@ -1,0 +1,62 @@
+Reflections (pt 5)
+•	use “diff –u file_1 file_2” to compare the files
+•	will show differences with “-“ for the old file and “+” for the new file
+Setting up .bash_profile
+	go to '$ cd ~/' to get to the home directory
+	type 'touch .bash_profile'
+To launch Sublime Text with 'subl' command
+	add 'export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin' to the .bash_profile file 
+How did viewing a diff between two versions of a file help you see the bug
+ that was introduced?
+	It allowed you to pinpoint the exact LINES of code where changes were made
+	therefore making it much faster to browse through all changes to find any 
+	possible typos
+
+How could having easy access to the entire history of a file make you a more
+ efficient programmer in the long term?
+ 	You can easily find bugs/changes because the file is saved after numerous
+ 	small changes rather than one big one
+
+ What do you think are the pros and cons of manually choosing when to create
+  a commit, like you do in Git, vs having versions automatically saved, like
+  Google docs does?
+  	Pros: commits will generally have logical purpose and will therfore be
+  	easy to follow, commit scales should theoretically be a good size,
+  	Cons: you could forget to commit changes at the right times and end up
+  	with commits that are too big, you could lose commits if your comp crashes
+  	or something
+
+ Why do you think some version control systems, like Git, allow saving 
+ multiple files in one commit, while others, like Google Docs, treat each 
+ file separately?
+ 	I would say this has to do with the nature of the systems. Git works 
+ 	within different types of languages that interact with each other and 
+ 	therefore may have changes to multiple files at once. Google docs 
+ 	generally will only need to save one file because it won't be interacting 
+ 	with outside files
+
+ How can you use the commands git log and git diff to view the history of 
+ files?
+ 	git log will show all of the different commits ever made to any 
+ 	particular file
+ 	git diff will allow you to see what specific changes were made by a 
+ 	certain commit by comparing said commit to the previous commit
+
+How might using version control make you more confident to make changes that 
+could break something?
+	if you break something, it's very easy to find where the "break" occurred
+	because you've only made a few changes between versions
+
+Now that you have your workspace set up, what do you want to try using Git 
+for?
+	creating my own program, however simple
+
+
+
+
+
+
+
+
+
+
