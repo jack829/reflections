@@ -22,4 +22,18 @@ use one instead of another?
 
 What is the benefit of having a copy of the last known state of the remote 
 stored locally?
-	In case you want to go back to that state to start again from there or if you want to merge the previous state with a new one
+	In case you want to go back to that state to start again from there or if 
+	you want to merge the previous state with a new one
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+	possibly google docs. This would be easier in the sense that you could 
+	see changes much more quickly but much harder as the changes would not be 
+	nearly as well incorporated
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+	You'd use a separate branch so you don't interfere with potential other 
+	contributors and so that you won't (potentially) mess up the master. 
+	It makes things a bit more complicated to merge back into the master but 
+	ensures that conflicts are easily found 
