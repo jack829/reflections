@@ -19,3 +19,7 @@ use one instead of another?
 	in order to work on said program with your own programs on your computer
 	and you use branches to maintain a working, presentable version of your 
 	code while experimenting with changes
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+	In case you want to go back to that state to start again from there or if you want to merge the previous state with a new one
